@@ -33,7 +33,24 @@
 }
 .flex-box-container-2{
     display: flex;
-     border: 1px solid blue;
+    border: 1px solid blue;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+
+    
+
+    
+}
+
+.flex-box-container-2 img{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
 
 }
+
