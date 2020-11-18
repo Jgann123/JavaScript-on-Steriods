@@ -16,5 +16,16 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+function generateCat(){
+  var image = document.createElement('img');
+  var div = document.getElementById('flex2');
+  image.src = "https://cdn2.thecatapi.com/images/63.gif";
+  div.appendChild(image);
 
+
+}
+
+function removeCat(){
+  document.getElementById('flex2').remove();
+}
 

@@ -33,19 +33,24 @@
 
 <div class="container-2">
   <h2>Challenge 2: Cat Generator</h2>
-  <button class="btn btn-success">Generate Cat!</button>
+  <button class="btn btn-success" id="catGenerator" onclick="generateCat()">Generate Cat!</button>
 
-  <div class="flex-box-container-2">
-    <img src="https://cdn2.thecatapi.com/images/63.gif"></img>
-    <img src="https://cdn2.thecatapi.com/images/63.gif"></img>
-    <img src="https://cdn2.thecatapi.com/images/63.gif"></img>
-    <img src="https://cdn2.thecatapi.com/images/63.gif"></img>
-    <img src="https://cdn2.thecatapi.com/images/63.gif"></img>
-    
+  <button class="btn btn-danger" id="catDGenerator" onclick="removeCat()">Remove Cat!</button>
+
+
+  <div class="flex-box-container-2" id="flex2">
+ 
   </div>
+</div>
 
-
-
+<div class="container-3">
+  <h2>Challenge 3:Rock, Paper, Scissors</h2>
+  <div clss="flex-box-rps" id="flexbox-rps-div">
+     <img id="Rock" src="https://i.pinimg.com/736x/6f/fa/9a/6ffa9aabb7ab602f176a70510c76e2be.jpg" onclick="rpsGame(this)">
+     <img id="Paper" src="https://i.stack.imgur.com/NYIz7.png" onclick="rpsGame(this)">
+     <img id="Scissors" src="https://image.shutterstock.com/image-illustration/scissors-cartoon-260nw-71556766.jpg" hieght="150" width="150" onclick="rpsGame(this)">
+     
+  </div>
 </div>
 
 
